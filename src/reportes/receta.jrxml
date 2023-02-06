@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="880df3c4-9eb9-4dee-8127-09d89418e7b3">
+	<property name="ireport.zoom" value="1.1586575189467514"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="Rp" class="java.lang.String"/>
+	<parameter name="Indicaciones" class="java.lang.String"/>
+	<parameter name="fecha" class="java.lang.String"/>
+	<parameter name="nombrePaciente" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="86" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="0" width="87" height="86" uuid="588cf375-86cc-4f31-ab47-02f25671b6ad"/>
+				<imageExpression><![CDATA["C:\\Users\\Junior\\Documents\\NetBeansProjects\\LamsClinica\\src\\recursos\\logo.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="87" y="0" width="225" height="27" forecolor="#000099" uuid="c9c8e346-5fe2-476c-8284-6f307f892fc1"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[HOSPITAL BASICO LAMS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="87" y="27" width="225" height="20" forecolor="#000099" uuid="3d4db106-0d29-4087-88fd-6176e4d909e7"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Dr. Luis Alberto Moreira Saenz]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="87" y="47" width="225" height="20" uuid="c6c153b8-47b0-4838-bdd6-3ffbb1ceb95c"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Especialista en Endocrinologia]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="87" y="66" width="225" height="20" uuid="734c00a8-2209-4445-9c56-3bad5755a16f"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Ginecologia - Roproductologo]]></text>
+			</staticText>
+			<image>
+				<reportElement x="401" y="0" width="87" height="86" uuid="242b475d-226a-409b-8cca-2507e96f488e"/>
+				<imageExpression><![CDATA["C:\\Users\\Junior\\Documents\\NetBeansProjects\\LamsClinica\\src\\recursos\\logo.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="488" y="0" width="225" height="27" forecolor="#000099" uuid="45728017-900b-4f00-afe2-41f058ee5943"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[HOSPITAL BASICO LAMS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="488" y="66" width="225" height="20" uuid="3a0104ee-526b-4db8-b4a4-15155166afaf"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Ginecologia - Roproductologo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="526" y="27" width="225" height="20" uuid="1ca8ac63-14be-4ba2-9d94-ad2587c133df"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Dr. Luis Alberto Moreira Saenz]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="526" y="47" width="225" height="20" uuid="01e94a35-ff98-4909-b072-738c98420f42"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Especialista en Endocrinologia]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="20" splitType="Stretch">
+			<staticText>
+				<reportElement x="16" y="0" width="261" height="19" uuid="fc99296b-c9e5-4511-8a04-1aa29c59727a"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Dirección: Via Aeropuerto (tras la piladora Pepita)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="300" y="0" width="89" height="19" uuid="fb6269b5-f7d6-4878-a362-06b51ddf652c"/>
+				<textElement verticalAlignment="Bottom">
+					<font isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Tel. 2382-223]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="429" y="0" width="261" height="18" uuid="feb51755-abdd-4dd4-b93d-3484dd465111"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Dirección: Via Aeropuerto (tras la piladora Pepita)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="713" y="0" width="89" height="18" uuid="2641da1d-6c9f-49c5-a1ca-6d6f89a7d132"/>
+				<textElement verticalAlignment="Bottom">
+					<font isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Tel. 2382-223]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="46" splitType="Stretch">
+			<line>
+				<reportElement x="0" y="0" width="802" height="1" uuid="43188a2e-cc84-4b5d-9f45-18cf21f21d8f"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="6" width="43" height="20" uuid="540921a4-5cf0-448b-95ea-efa958cc2a7e"/>
+				<text><![CDATA[Fecha:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="26" width="100" height="20" uuid="f3c99d7e-cb88-48e4-b663-dd5c05d460c9"/>
+				<text><![CDATA[Paciente:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="401" y="6" width="43" height="20" uuid="bdd1d0e3-e608-4cd6-bff6-28467a96c00b"/>
+				<text><![CDATA[Fecha:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="401" y="26" width="100" height="20" uuid="a76a9840-3e3c-4732-b38d-c329eb00e7ab"/>
+				<text><![CDATA[Paciente:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="54" y="26" width="335" height="20" uuid="783d25ee-bd38-4977-97f9-3ba2b0cdb8f6"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{nombrePaciente}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="43" y="6" width="118" height="20" uuid="d97257c4-1495-41c6-b515-e3c0930f671f"/>
+				<textFieldExpression><![CDATA[$P{fecha}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="454" y="26" width="337" height="20" uuid="8151c1ac-ed1f-4e8b-84e7-e5b0c7fe152d"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{nombrePaciente}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="444" y="6" width="117" height="20" uuid="73949d63-5fd7-40d9-acad-b94067736fe2"/>
+				<textFieldExpression><![CDATA[$P{fecha}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="230" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="100" height="20" uuid="0a2a6a3f-147e-48e5-8f3d-d0a002fc520a"/>
+				<textElement>
+					<font isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Rp.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="401" y="0" width="100" height="20" uuid="8aed733b-a5da-44a4-b961-3b6cf9bb83e5"/>
+				<textElement>
+					<font isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Indicaciones.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="20" width="389" height="210" uuid="2b5c1b52-7d4a-463e-839b-decbe423478b"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Rp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="401" y="20" width="401" height="210" uuid="0a4e1231-9715-415c-abc4-e865206ce836"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Indicaciones}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch">
+			<staticText>
+				<reportElement x="138" y="0" width="150" height="20" uuid="df932cd8-de5c-4072-8be0-b01b9920ea0c"/>
+				<textElement textAlignment="Center">
+					<font isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Manta - Manabí - Ecuador]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="526" y="0" width="150" height="20" uuid="436c7b70-eea3-4af0-b40a-6463310c7d62"/>
+				<textElement textAlignment="Center">
+					<font isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Manta - Manabí - Ecuador]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="60" splitType="Stretch"/>
+	</pageFooter>
+</jasperReport>

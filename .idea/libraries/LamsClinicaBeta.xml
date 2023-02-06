@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="LamsClinicaBeta">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/LamsClinicaBeta.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

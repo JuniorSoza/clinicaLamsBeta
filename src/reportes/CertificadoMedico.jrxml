@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="437deb48-8f90-421f-806d-0f5db50d07cb">
+	<property name="ireport.zoom" value="1.3310000000000004"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="NombresPaciente" class="java.lang.String"/>
+	<parameter name="fechaCertificado" class="java.lang.String"/>
+	<parameter name="Edad" class="java.lang.String"/>
+	<parameter name="cedula" class="java.lang.String"/>
+	<parameter name="dias" class="java.lang.String"/>
+	<parameter name="sintomas" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[
+]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="202" splitType="Stretch">
+			<image>
+				<reportElement x="55" y="0" width="62" height="59" uuid="1266f507-605d-4e2a-86ba-272d6bd91177"/>
+				<imageExpression><![CDATA["C:\\Users\\Junior\\Documents\\NetBeansProjects\\LamsClinica\\src\\recursos\\logo.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="136" y="15" width="317" height="33" forecolor="#3366FF" uuid="81d3d02b-f611-426d-83cf-7035ca8309b0"/>
+				<textElement textAlignment="Center">
+					<font size="24" isBold="true"/>
+				</textElement>
+				<text><![CDATA[HOSPITAL BASICO LAMS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="39" y="59" width="176" height="20" uuid="a18ade2e-3430-4b34-81a1-650b52e644d5"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Dr. Luis Alberto Moreira Sáenz]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="39" y="79" width="100" height="20" uuid="9fe37d1c-0d41-4d2e-a68f-568d6eb4932f"/>
+				<text><![CDATA[MEDICO CIRUJANO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="39" y="99" width="200" height="20" uuid="25d92a08-7da4-4fe5-bdf8-68093a70b8bb"/>
+				<text><![CDATA[Universidad Catolica Santiago de Guayaquil]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="39" y="119" width="342" height="20" uuid="77f4dd72-3506-4735-9144-6c51f459109d"/>
+				<text><![CDATA[ESPECIALISTA ENDOCRINOLOGIA, GINECOLOGIA Y REPRODUCCION]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="39" y="139" width="230" height="20" uuid="583d6a53-d54f-46dd-9a59-90d81fc814c5"/>
+				<text><![CDATA[Universidad Favaloro Buenoos Aires Argentina]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="39" y="159" width="376" height="20" uuid="11c831c4-3db2-4443-866d-385244c18750"/>
+				<text><![CDATA[Dir. Via Aeropuerto	(atras de piladora pepita)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="39" y="179" width="176" height="20" uuid="d69beff9-1a1d-4aed-a5a7-325f91f1f426"/>
+				<text><![CDATA[Telefono: 2-382-223 / 0986724603]]></text>
+			</staticText>
+			<line>
+				<reportElement x="39" y="201" width="476" height="1" uuid="f70dbdab-7792-4a06-90b2-3c58381d60fc"/>
+				<graphicElement>
+					<pen lineWidth="2.0" lineStyle="Double"/>
+				</graphicElement>
+			</line>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch">
+			<staticText>
+				<reportElement x="186" y="15" width="177" height="20" forecolor="#3366FF" uuid="4807ba43-f753-4eaa-bea2-877a9025f17e"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CERTIFICADO MEDICO]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="33" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="423" splitType="Stretch">
+			<staticText>
+				<reportElement x="39" y="0" width="476" height="20" uuid="c9305c4e-7ce1-4e91-803b-fdc65001e7df"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Dejo constancia haber atendido en la ciudad de Manta y en esta casa]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="39" y="20" width="114" height="20" uuid="b80bee53-9fe5-485d-b588-7fa74b1eb47c"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[asistencial, el dia]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="227" y="20" width="6" height="20" uuid="8d4eeb01-eac8-4d27-8208-78a3a97ef94e"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[a]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="39" y="40" width="26" height="20" uuid="1e780850-a114-448c-8800-638b18300b22"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[de]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="91" y="40" width="136" height="20" uuid="5c1413c4-89c7-4508-97b0-8483e1115f47"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[año de edad, con CC]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="341" y="40" width="100" height="20" uuid="3b0b5e17-f712-4b7b-84c0-920c28cb66ac"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[por presentar:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="39" y="120" width="162" height="20" uuid="ba5e29c0-118a-42c0-bd20-9855ac2a49ee"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Recomiendo reposo por]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="39" y="140" width="342" height="20" uuid="544379eb-3ec7-40a7-89ec-7950e8a53d42"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Es todo en cuanto puedo decir en honor a la verdad]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="39" y="259" width="100" height="20" uuid="06c6984d-d8f7-4975-aae1-5b1691a141b3"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Atentamente,]]></text>
+			</staticText>
+			<line>
+				<reportElement x="39" y="324" width="147" height="1" uuid="55f57224-9088-49f8-905c-32049089be44"/>
+			</line>
+			<staticText>
+				<reportElement x="39" y="340" width="200" height="20" uuid="9685bd8b-547a-4d27-a243-0706064151f9"/>
+				<text><![CDATA[Dr. Luis Moreira Saenz. CC130368325-2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="39" y="360" width="200" height="20" uuid="a1132a6c-8a68-4920-a222-7689d9409dc4"/>
+				<text><![CDATA[Telf. 0986724306]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="39" y="380" width="200" height="20" uuid="e4e5dca8-e0a8-496d-91cf-37988fbb3c31"/>
+				<text><![CDATA[Registro sanitario MSP 0970 FOLIO 00585]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="39" y="400" width="285" height="20" uuid="113c118e-4edc-42b5-a0c1-1a57b1c21e45"/>
+				<text><![CDATA[Registro SENESCYT 5009R-13-18236]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="239" y="20" width="276" height="20" uuid="0210f111-ed0f-4735-9f06-31996fbd2225"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{NombresPaciente}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="153" y="20" width="74" height="20" uuid="925a6df8-7e6b-41d0-b69d-7ab44b8c6ef0"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{fechaCertificado}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="65" y="40" width="26" height="20" uuid="18a8b7d7-11ee-400c-ad9b-f013c5296fec"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Edad}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="227" y="40" width="100" height="20" uuid="e070d276-7bad-45ff-b023-6c42d89b223a"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{cedula}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="227" y="120" width="36" height="20" uuid="fee1117a-8fe5-4c00-992a-00655a5a031a"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[dias]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="201" y="120" width="26" height="20" uuid="84d630ed-7a94-4aaa-8479-e0807e3a91c9"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{dias}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="39" y="60" width="476" height="60" uuid="4a391200-cbd2-4173-bec5-672e49335b06"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{sintomas}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="27" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="27" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="17" splitType="Stretch"/>
+	</summary>
+</jasperReport>
